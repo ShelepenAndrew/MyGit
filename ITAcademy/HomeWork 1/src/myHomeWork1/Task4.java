@@ -10,7 +10,6 @@ public class Task4 {
             if (a % 2 == 0) {
                 System.out.print(a + " ");
             }
-
         }
     }
 }

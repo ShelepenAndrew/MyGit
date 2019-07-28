@@ -16,6 +16,5 @@ public class Task10 {
         int number2 = in.nextInt();
         int sum = number1 + number2;
         System.out.print("Sum of two numbers: " + sum);
-
     }
 }

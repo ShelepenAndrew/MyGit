@@ -1,0 +1,46 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	int symbolCount;
+	char symbol;
+	int lineType;
+	int index = 0;
+
+	cout << "Введите количество символов в линии: ";
+	cin >> symbolCount;
+
+	cout << "Введите символ: ";
+	cin >> symbol;
+
+	cout << "Выберите тип линии: " << endl
+		<< "1 - вертикальная линия " << endl
+		<< "2 - горизонтальная линия ";
+	cin >> lineType;
+
+	if (lineType!=1 && lineType!=2)
+	{
+		cout << "Не корректный тип линии!" << endl;
+		_getch();
+	}
+
+	while (index<symbolCount)
+	{
+		if (lineType==1)
+		{
+			cout << symbol << endl;
+		}
+		if (lineType == 2)
+		{
+			cout << symbol;
+		}
+		index++;
+	}
+
+	_getch(); // Команда задержки экрана
+	return 0;
+}

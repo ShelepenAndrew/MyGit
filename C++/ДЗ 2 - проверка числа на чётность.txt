@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	int var;
+	cout << "Ведите число для проверки на чётность: ";
+	cin >> var;
+
+	if (var%2==0)
+	{
+		cout << "Ваше число " << var << " чётное!" << endl;
+	}
+	else
+	{
+		cout << "Ваше число " << var << " не чётное!" << endl;
+	}
+	_getch(); // Команда задержки экрана
+	return 0;
+}

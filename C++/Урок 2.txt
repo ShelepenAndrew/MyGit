@@ -1,0 +1,19 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+using namespace std;
+int main()
+{
+	
+	setlocale(LC_ALL, "rus"); // Позволяет отображдать рус буквы
+	cout << "Привет!" << endl;
+	
+	_getch(); // Команда задержки экрана
+	return 0;
+}
+
+
+
+
+
+https://www.youtube.com/watch?v=TQyIJ4xHOEE&list=PLQOaTSbfxUtCrKs0nicOg2npJQYSPGO9r&index=4

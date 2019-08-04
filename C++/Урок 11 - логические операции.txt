@@ -1,0 +1,29 @@
+#include iostream
+#include conio.h  библиотека, необходима€ дл€ работы оператора getch();
+
+
+ - меньше
+ - больше
+= равно
+= меньше равно
+= больше равно
+
+== равно равно
+!= не равно
+
+&& и
+ или
+!= не
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, Rus);
+
+	int a = 3;
+	int b = 3;
+	cout  ((a == b)&&(57))  endl;
+	
+	_getch();   оманда задержки экрана
+	return 0;
+}

@@ -1,0 +1,34 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+#include <ctime> // библиотека, необходимая для работы 	srand(time(NULL));
+
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+	
+	const int ROWS = 5;
+	const int COLS = 8;
+	int arr[ROWS][COLS];
+
+	for (int i = 0; i < ROWS; i++)
+	{
+		for (int j = 0; j < COLS; j++)
+		{
+			arr[i][j] = rand() % 10;
+		}
+	}
+	
+	for (int i = 0; i < ROWS; i++)
+	{
+		for (int j = 0; j < COLS; j++)
+		{
+			cout << arr[i][j] << "\t";
+		}
+		cout << endl;
+	}
+	_getch(); // Команда задержки экрана
+	return 0;
+}
+

@@ -1,0 +1,16 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	int a = 0;
+	cout << a << endl;
+	a += 20;
+	cout << a << endl;
+	
+	_getch(); // Команда задержки экрана
+	return 0;
+}

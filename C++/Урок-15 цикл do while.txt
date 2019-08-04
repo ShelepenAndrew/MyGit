@@ -1,0 +1,19 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+
+	int a=18;
+
+	do
+	{
+	cout << "Текст! " << a << endl;
+	a++;
+	} while (a<20);
+
+	_getch(); // Команда задержки экрана
+	return 0;
+}

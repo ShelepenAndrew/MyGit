@@ -1,0 +1,20 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	int Var1, Var2;
+
+	cout << "Введите первое число: ";
+	cin >> Var1;
+	cout << "Введите второе число: ";
+	cin >> Var2;
+
+	cout << "Ваше первое число: " << Var1 << endl << "Ваше второе число: " << Var2 << endl;
+	
+	_getch(); // Команда задержки экрана
+	return 0;
+}

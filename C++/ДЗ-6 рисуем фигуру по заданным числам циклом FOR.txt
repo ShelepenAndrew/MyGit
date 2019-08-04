@@ -1,0 +1,27 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+
+	int height, width;
+	cout << "Введите высоту примоугольника: ";
+	cin >> height;
+
+	cout << "Введите ширину прямоугольника: ";
+	cin >> width;
+
+	for (int j = 0; j < height; j++)
+	{
+		for (int i = 0; i < width; i++)
+		{
+			cout << "*";
+		}
+		cout << endl; // Перенос звёздочек на новую строку
+	}
+
+			_getch(); // Команда задержки экрана
+	return 0;
+}

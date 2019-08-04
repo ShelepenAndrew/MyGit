@@ -1,0 +1,28 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	int a;
+	cout << "Введите число: ";
+	cin >> a;
+
+	if (a>5)
+	{
+		cout << "Ваше число больше 5" << endl;
+	}
+	else if(a==5)
+	{
+		cout << "Ваше число равно 5" << endl;
+	}
+	else
+	{
+		cout << "Ваше число меньше 5" << endl;
+	}
+	_getch(); // Команда задержки экрана
+	return 0;
+}

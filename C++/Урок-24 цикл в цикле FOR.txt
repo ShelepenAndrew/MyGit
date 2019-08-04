@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	
+	for (int i = 1; i < 5; i++)
+	{
+		cout << "сработал 1й цикл for итерация № " << i << endl;
+
+		for (int j = 1; j < 5; j++)
+		{
+			cout << "\t сработал 2й цикл for итерация № " << j << endl;
+		}
+
+	}
+	
+	_getch(); // Команда задержки экрана
+	return 0;
+
+}

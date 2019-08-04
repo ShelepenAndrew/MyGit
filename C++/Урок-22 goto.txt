@@ -1,0 +1,25 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	cout << "one" << endl;
+
+	goto link;
+
+	cout << "two" << endl;
+
+	cout << "three" << endl;
+
+	link:
+
+	cout << "four" << endl;
+
+	cout << "five" << endl;
+
+	_getch(); // Команда задержки экрана
+	return 0;
+}

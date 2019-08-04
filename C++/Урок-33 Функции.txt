@@ -1,0 +1,26 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+#include <ctime> // библиотека, необходимая для работы 	srand(time(NULL));
+
+using namespace std;
+
+void foo()
+{
+	cout << "Я функция, меня вызвали!" << endl;
+}
+
+double sum(double a, double b, double c)
+{
+	return a + b + c;
+}
+
+int main()
+{
+	setlocale(0, "");
+
+	cout << sum(2.3, 4.7, 8.5) << endl;
+	foo();
+
+	_getch(); // Команда задержки экрана
+	return 0;
+}

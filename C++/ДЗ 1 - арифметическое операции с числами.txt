@@ -1,0 +1,31 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	int a, b, c, sum, proiz;
+	double arif;
+	
+	cout << "Введите первое число: ";
+	cin >> a;
+
+	cout << "Введите второе число: ";
+	cin >> b;
+
+	cout << "Введите третье число: ";
+	cin >> c;
+
+	sum = a + b + c;
+	proiz = a * b * c;
+	arif = (double)(a + b + c) / 3; // указываем компилятору, что тип данных дабл
+
+	cout << "Сумма трёх чисел = "<< sum << endl;
+	cout << "Произведение трёх чисел = " << proiz << endl;
+	cout << "Среднее арифметическое трёх чисел = " << arif << endl;
+		
+	_getch(); // Команда задержки экрана
+	return 0;
+}
+

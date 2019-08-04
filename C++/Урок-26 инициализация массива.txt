@@ -1,0 +1,15 @@
+#include <iostream>
+#include <conio.h> // библиотека, необходимая для работы оператора getch();
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+
+	int arr[] { 1,44,658,36,15,26 };
+
+		cout << arr[3] << endl;
+
+	_getch(); // Команда задержки экрана
+	return 0;
+}

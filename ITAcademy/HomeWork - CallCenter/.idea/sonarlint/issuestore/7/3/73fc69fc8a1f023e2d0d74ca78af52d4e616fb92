@@ -1,0 +1,12 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÞÃÁôþÿÿÿÿ
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ñ»š¡8Á÷åžÒ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒŒâÔøÿÿÿÿ8Á÷åžÒ-
+Hsquid:S00108$")Either remove or fill this block of code.(ä ¹€8Á÷åžÒ-
+dsquid:S2142$"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Á÷åžÒ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.( Ö÷ƒ8Á÷åžÒ-
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ì“ÅÝøÿÿÿÿ8Á÷åžÒ-
